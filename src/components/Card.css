@@ -1,0 +1,118 @@
+.card-container {
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  transition: all 300ms;
+}
+
+.card-container:hover {
+  box-shadow: 5px 5px 5px rgb(211, 210, 210,0.4);
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.swap-btns {
+  display: flex;
+  margin: 5px 0px;
+}
+
+.btn-left,
+.btn-right {
+  margin: 0px 10px;
+}
+
+.quote {
+  color: blueviolet;
+}
+
+.surprise-me {
+  margin: 5px 0px 15px 0px;
+}
+
+.surprise-me > button {
+  padding: 10px 15px 10px 15px;
+  background-color: rgb(146, 96, 193);
+  color: white;
+  border: hidden;
+  border-radius: 5px;
+  font-size: large;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 200ms;
+}
+
+.surprise-me > button:hover {
+  background-color: violet;
+}
+
+.btn {
+  border: hidden;
+  font-size: large;
+  font-weight: bold;
+  color: rgb(146, 96, 193);
+  cursor: pointer;
+  padding: 5px;
+  background-color: white;
+  transition: all 200ms;
+}
+
+.btn:hover {
+  color: violet;
+}
+
+.img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: 20px;
+  top: -25px;
+}
+
+.img-container {
+  position: relative;
+}
+
+.name {
+  text-transform: capitalize;
+  font-size: x-large;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.job {
+  text-transform: uppercase;
+  font-size: small;
+  color: rgb(177, 152, 200);
+}
+
+.right-quote-container {
+  margin-top: 10px;
+}
+.left-quote-container {
+  margin: 10px 0px;
+}
+.name-container {
+  margin-top: 70px;
+}
+
+.review-container {
+  text-align: center;
+}
+
+.background-circle {
+  border-radius: 50%;
+  background-color: blueviolet;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: 25px;
+  top: -30px;
+  z-index: -1;
+}

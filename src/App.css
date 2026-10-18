@@ -1,0 +1,26 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.app {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:rgb(243, 242, 242)
+}
+.container-all {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.underline{
+    height: 3px;
+    width: 120px;
+    background-color: plum;
+    border-radius: 20px;
+}
